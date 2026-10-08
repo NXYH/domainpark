@@ -10,7 +10,7 @@ const description = "The premium domain litmus7.si is available. Minimum bid ₹
 
 // og:image comes from app/opengraph-image.png (Next file convention)
 export const metadata: Metadata = {
-  metadataBase: new URL("https://litmus7.si"),
+  metadataBase: new URL("https://www.litmus7.si"),
   title,
   description,
   openGraph: { title, description, url: "/", siteName: "litmus7.si", type: "website" },
